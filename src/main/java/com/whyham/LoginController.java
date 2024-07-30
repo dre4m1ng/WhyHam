@@ -25,4 +25,9 @@ public class LoginController {
     public String joinPage3 () {
         return "Join3.html";
     }
+
+    @GetMapping("/main")
+    public String mainPage () {
+        return "main";
+    }
 }
