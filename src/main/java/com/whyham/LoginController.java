@@ -8,6 +8,21 @@ public class LoginController {
 
     @GetMapping("/")
     public String login () {
-        return "login.html";
+        return "Login.html";
+    }
+
+    @GetMapping("/join/1")
+    public String joinPage1 () {
+        return "Join1.html";
+    }
+
+    @GetMapping("/join/2")
+    public String joinPage2 () {
+        return "Join2.html";
+    }
+
+    @GetMapping("/join/3")
+    public String joinPage3 () {
+        return "Join3.html";
     }
 }
