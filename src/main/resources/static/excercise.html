@@ -13,18 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Why Ham</title>
   <link rel="stylesheet" href="css/excercise.css">
-  <style>
-    #video {
-      border: 1px solid black;
-      width: 400px;
-      height: 300px;
-    }
-
-    #capture {
-      display: block;
-      margin-top: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body style="height: 720px;">
@@ -40,25 +29,25 @@
   <div style="height: 70px;"></div>
 
   <div class="text-center">
-    <video class="mt-3" id="video" autoplay></video>
+    <video class="mt-2" id="video" autoplay></video>
     <canvas id="canvas" width="400" height="300" style="display: none;"></canvas>
     <script src="camera.js"></script>
 
-    <div class="mt-3 d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
       <div class="m-3 excercise-cnt">
         <p class="mb-0 cnt-font">COUNT</p>
         <p style="font-size: 100px;">10</p>
       </div>
     </div>
   </div>
-  <div class="mt-2 text-center">
+  <div class="text-center">
     <button class="me-5 excercise-btn">운동 시작</button>
     <button class="excercise-btn">운동 종료</button>
   </div>
-
-  <nav class="text-center mb-4 navbar-light bg-white fixed-bottom">
-    <hr>
-    <div class="container">
+  
+  <div class="mt-4" style="height: 60px;"></div>
+  <nav class="text-center navbar-light bg-white fixed-bottom" style="height: 60px; border-top: 1px solid #afadad;">
+    <div>
       <div class="row">
         <div class="col-3 material-symbols-outlined bt-nav">home</div>
         <div class="col-3 material-symbols-outlined bt-nav">fitness_center</div>
